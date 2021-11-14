@@ -1,14 +1,17 @@
 .Navbar{
     height:100vh;
     .nav{
-        height:100%;
-        display:flex;
-        flex-direction:column;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        list-style: none;
 
         .profile{
             width:100%;
+            margin-top:1rem;
+            border-bottom:1px solid #2e344e;
             text-align: center;
             img{
                 width:80%;
@@ -17,5 +20,33 @@
                 margin-bottom: 1rem;
             }
         }
+        .nav-items{
+            width: 100%;
+           .nav-item{
+               text-align: center; 
+               list-style: none; 
+               
+               a{
+                   text-decoration: none;
+                   color:inherit;
+                   text-align: center;
+                   display:block;
+                   padding: .5rem 0;
+               }
+               
+           } 
+        }
+        .footer{
+            width: 100px;
+            border-top:1px solid #2e344e;
+            p{
+               text-align:center;
+               padding: 1rem 0; 
+            }
+        }
     }
+}
+
+.active{
+background-color: #037fff;
 }
