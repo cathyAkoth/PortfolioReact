@@ -1,14 +1,15 @@
 import React from 'react'
-// import avatar from '../img/cathy.jpg';
+ import cate from '../img/cathy.jpg';
 import {NavLink} from 'react-router-dom';
 
 function Navbar(){
     return(
-        <div className="NavBar">
-            <div className="profile">
-                {/* <img src={avatar} alt=""/> */}
-            </div>
+        <div className="Navbar">
+           
             <nav className="nav">
+                <div className="profile">
+                    <img src={cate} alt=""/> 
+                </div>   
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -42,12 +43,13 @@ function Navbar(){
 
                     </li>
                 </ul>
-            </nav>
-            <footer className="footer">
+                <footer className="footer">
                 <p>
                     @2021 Akoth Catherine Cecilia
                 </p>
-            </footer>
+                </footer>
+            </nav>
+           
 
         </div>
 
