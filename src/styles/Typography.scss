@@ -18,3 +18,19 @@
 .h-sub-text{
     text-align:center;
 }
+.icons{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding: 1.5rem 0;
+    .icon-holder{
+        .icon{
+            &:not(:last-child){
+               margin-right: 1rem; 
+            }
+            
+            
+        }
+    }
+
+}
