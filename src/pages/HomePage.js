@@ -4,7 +4,7 @@ import {faFacebook} from '@fortawesome/free-brands-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from '@fortawesome/free-brands-svg-icons';
-import {Link} from 'react-router-dom';
+// import {Link} from 'react-router-dom';
 
 
 function HomePage(){
@@ -21,18 +21,18 @@ function HomePage(){
 
                 </p>
                 <div className="icons">
-                    <Link className="icon-holder">
-                        <FontAwesomeIcon icon={faFacebook} className="icon"/>
-                    </Link>
-                    <Link className="icon-holder" >
-                        <FontAwesomeIcon icon={faGithub} className="icon" />
-                    </Link>
-                    <Link className="icon-holder" >
-                        <FontAwesomeIcon icon={faLinkedin} className="icon" />
-                    </Link>
-                    <Link className="icon-holder" >
-                        <FontAwesomeIcon icon={faTwitter} className="icon"/>
-                    </Link>
+                    {/* <Link className="icon-holder"> */}
+                        <FontAwesomeIcon icon={faFacebook} className="icon fb"/>
+                    {/* </Link> */}
+                    {/* <Link className="icon-holder" > */}
+                        <FontAwesomeIcon icon={faGithub} className="icon gh" />
+                    {/* </Link> */}
+                    {/* <Link className="icon-holder" > */}
+                        <FontAwesomeIcon icon={faLinkedin} className="icon yt" />
+                    {/* </Link> */}
+                    {/* <Link className="icon-holder" > */}
+                        <FontAwesomeIcon icon={faTwitter} className="icon yt"/>
+                    {/* </Link> */}
                 </div>
             </header>   
         </div>
